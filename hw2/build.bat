@@ -18,7 +18,7 @@ pushd .\build
 :: added /permissive to work around this
 set flags= /std:c++20 /permissive /Feout /FAs /EHsc
 set code=..\main.cpp
-set includes=/I"..\d_core"
+set includes=/I"..\..\d_core"
 set link_libs= Winmm.lib ole32.lib oleaut32.lib Advapi32.lib crypt32.lib
 
 :: Compile our app, or DirectXTex

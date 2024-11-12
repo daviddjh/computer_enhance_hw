@@ -1,3 +1,4 @@
 tools/
 *.ilk
 *.pdb
+*.obj
